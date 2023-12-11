@@ -6,6 +6,7 @@ import CartItem from "../components/CartItem";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { FaEquals } from "react-icons/fa";
 import PriceCard from "../components/PriceCard";
+import Button from "../components/ui/Button";
 
 export default function MyCart() {
     const { uid } = useAuthContext();
@@ -26,12 +27,14 @@ export default function MyCart() {
         );
     const SHIPPING = 3000;
     return (
-        <section>
-            <p>내 장바구니</p>
+        <section className="p-8 flex flex-col">
+            <p className="text-2xl text-center text-bold pb-4 border-b border-gray-300">
+                내 장바구니
+            </p>
             {!hasProducts && <p>장바구니에 상품이 없습니다.</p>}
             {hasProducts && (
                 <>
-                    <ul>
+                    <ul className="border-b border-gray-300 mb-8 p-4 px-8">
                         {products &&
                             products.map((product) => (
                                 <CartItem
@@ -41,13 +44,14 @@ export default function MyCart() {
                                 />
                             ))}
                     </ul>
-                    <div>
+                    <div className="flex justify-between items-center mb-4 px-2 md:px-8 lg:px-16 ">
                         <PriceCard text="상품 총액" price={totalPrice} />
-                        <BsFillPlusCircleFill />
+                        <BsFillPlusCircleFill className="shrink-0" />
                         <PriceCard text="배송액" price={SHIPPING} />
-                        <FaEquals />
+                        <FaEquals className="shrink-0" />
                         <PriceCard text="총액" price={totalPrice + SHIPPING} />
                     </div>
+                    <Button className="lg:w-40" text="주문하기" />
                 </>
             )}
         </section>
