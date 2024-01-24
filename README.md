@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Shoppy - 쇼핑몰 구현 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+백엔드로 파이어베이스를 사용해서 쇼핑몰사이트 구현 
 
-## Available Scripts
+https://lucky-taffy-e6cc84.netlify.app/
 
-In the project directory, you can run:
+### 페이지 및 기능
 
-### `yarn start`
+<App/>
+/<Home>
+/products -> <AllProducts>
+/products/new -> <NewProduct>
+/products/:id -> <ProductDetail>
+/carts -> <MyCart>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Home**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- navbar
+    - logo
+    - product(전체 프로덕트만을 볼수있음)
+    - edit(admin일경우에만 노출. 상품 추가, 수정, 삭제)
+    - 로그인 계정(프로필 아바타와 함께 보여짐)
+    - 로그인/로그아웃 버튼
+- banner, products
 
-### `yarn test`
+![KakaoTalk_20240124_141502581.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ee15f082-7d3b-4b44-9c43-70de195f50b5/8ec687fe-3280-4f46-9933-de8128d3ffa1/KakaoTalk_20240124_141502581.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Cart**
 
-### `yarn build`
+![KakaoTalk_20240124_141520257.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ee15f082-7d3b-4b44-9c43-70de195f50b5/0c6f00a7-156b-4834-8c6a-38c918068b07/KakaoTalk_20240124_141520257.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**NewProduct**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![KakaoTalk_20240124_141539171.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/ee15f082-7d3b-4b44-9c43-70de195f50b5/9640bcca-fdb7-417d-a6f9-8cd32fd3e96e/KakaoTalk_20240124_141539171.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 기술스택
 
-### `yarn eject`
+Language : typescript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Server 상태 관리 : react-query
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Css Framwork : tailwindCSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy : netlify
