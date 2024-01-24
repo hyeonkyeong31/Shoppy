@@ -6,12 +6,7 @@ https://lucky-taffy-e6cc84.netlify.app/
 
 ### 페이지 및 기능
 
-> <App/>
->> <Home>
->> products -> <AllProducts>
->> products/new -> <NewProduct>
->> products/:id -> <ProductDetail>
->> carts -> <MyCart>
+<img width="179" alt="다운로드" src="https://github.com/hyeonkyeong31/Shoppy/assets/78129949/f0c838e8-d67f-4db6-9abb-cc0c52208b8e">
 
 **Home**
 
