@@ -22,16 +22,16 @@ https://lucky-taffy-e6cc84.netlify.app/
     - 로그인 계정(프로필 아바타와 함께 보여짐)
     - 로그인/로그아웃 버튼
 - banner, products
+![KakaoTalk_20240124_141502581](https://github.com/hyeonkyeong31/Shoppy/assets/78129949/bebe8d75-43a8-434c-b161-90e81ecc16df)
 
-![KakaoTalk_20240124_141520257](https://github.com/hyeonkyeong31/Shoppy/assets/78129949/9033b662-283d-46b1-b507-2cf285189888)
 
 **Cart**
+![KakaoTalk_20240124_141520257](https://github.com/hyeonkyeong31/Shoppy/assets/78129949/9033b662-283d-46b1-b507-2cf285189888)
 
-![KakaoTalk_20240124_141539171](https://github.com/hyeonkyeong31/Shoppy/assets/78129949/9224915e-a264-462a-b1c4-3875440ac546)
 
 **NewProduct**
+![KakaoTalk_20240124_141539171](https://github.com/hyeonkyeong31/Shoppy/assets/78129949/9224915e-a264-462a-b1c4-3875440ac546)
 
-![KakaoTalk_20240124_141502581](https://github.com/hyeonkyeong31/Shoppy/assets/78129949/bebe8d75-43a8-434c-b161-90e81ecc16df)
 
 
 ### 기술스택
