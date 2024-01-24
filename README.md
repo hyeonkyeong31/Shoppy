@@ -6,12 +6,12 @@ https://lucky-taffy-e6cc84.netlify.app/
 
 ### 페이지 및 기능
 
-<App/>
-/<Home>
-/products -> <AllProducts>
-/products/new -> <NewProduct>
-/products/:id -> <ProductDetail>
-/carts -> <MyCart>
+> <App/>
+>> <Home>
+>> products -> <AllProducts>
+>> products/new -> <NewProduct>
+>> products/:id -> <ProductDetail>
+>> carts -> <MyCart>
 
 **Home**
 
