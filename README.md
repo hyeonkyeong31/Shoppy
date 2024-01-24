@@ -1,6 +1,7 @@
 # Shoppy - 쇼핑몰 구현 프로젝트
 
 백엔드로 파이어베이스를 사용해서 쇼핑몰사이트 구현 
+클라우드 기반의 이미지 및 비디오 관리 서비스인 Cloudinary를 사용하여 product이미지 관리
 
 https://lucky-taffy-e6cc84.netlify.app/
 
@@ -38,3 +39,5 @@ Server 상태 관리 : react-query
 Css Framwork : tailwindCSS
 
 Deploy : netlify
+
+이미지 관리 : Cloudinary
