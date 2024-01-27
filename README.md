@@ -32,7 +32,7 @@ https://lucky-taffy-e6cc84.netlify.app/
 
 ### 기술스택
 
-Language : typescript
+Language : javascript
 
 Server 상태 관리 : react-query
 
