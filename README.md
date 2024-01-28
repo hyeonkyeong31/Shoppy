@@ -1,7 +1,7 @@
 # Shoppy - 쇼핑몰 구현 프로젝트
 
-백엔드로 파이어베이스를 사용해서 쇼핑몰사이트 구현 <br/>
-클라우드 기반의 이미지 및 비디오 관리 서비스인 Cloudinary를 사용하여 product이미지 관리
+firebase로 api 서버를 구축하여, 클라우드 기반의 이미지 및 비디오 관리 서비스인 Cloudinary로 product이미지를 관리하였습니다.<br/>
+
 
 https://lucky-taffy-e6cc84.netlify.app/
 
